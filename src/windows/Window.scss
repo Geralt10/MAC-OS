@@ -1,0 +1,49 @@
+.window {
+  background-color: black;
+  border-radius: 0.75rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.nav {
+  padding-inline: 0.75rem;
+  padding-block: 0.5rem;
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  border-bottom: 1px solid whitesmoke;
+  color: rgb(168, 168, 168);
+  font-weight: 500;
+  flex-shrink: 0;
+
+  .dots {
+    display: flex;
+    gap: 0.25rem;
+
+    .dot {
+      height: 15px;
+      width: 15px;
+      border-radius: 50%;
+    }
+
+    .red {
+      background-color: #eb3535;
+    }
+
+    .yellow {
+      background-color: rgb(247, 247, 81);
+    }
+
+    .green {
+      background-color: rgb(27, 228, 0);
+    }
+  }
+}
+
+.main-content {
+  flex: 1;
+  overflow-x: hidden; // 👈 window scroll band
+  
+}
