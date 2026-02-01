@@ -16,7 +16,7 @@ const Github = () => {
                
         <img src={data.image} alt="" />
         <h1>{data.title}</h1>
-        <p>{data.description}</p>
+        <p >{data.description}</p>
         <div className="tags">
             {data.tags.map(tag=><p className='tag'>{tag}</p>)}
         </div>

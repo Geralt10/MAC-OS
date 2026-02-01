@@ -11,20 +11,10 @@ const MacWindow = ({ children }) => {
         width: 600,
         height: 400,
       }}
-      bounds="window"
       dragHandleClassName="nav"
       minHeight={80}
       minWidth={300}
-      enableResizing={{
-        top: true,
-        bottom: true,
-        left: true,
-        right: true,
-        topLeft: true,
-        topRight: true,
-        bottomLeft: true,
-        bottomRight: true,
-      }}
+      
     >
       <div className="window">
         <div className="nav">

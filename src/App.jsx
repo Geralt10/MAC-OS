@@ -4,6 +4,8 @@ import Doc from './components/Doc'
 import Nav from './components/Nav'
 import MacWindow from './windows/MacWindow'
 import Github from './components/Github'
+import Note from './components/Note'
+import Resume from './components/Resume'
 const App = () => {
   return (
     <main>
@@ -11,7 +13,8 @@ const App = () => {
       <Doc/>
 
       <Github/>
-      
+      <Note/>
+      <Resume/>
     </main>
   )
 }

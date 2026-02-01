@@ -1,0 +1,11 @@
+.note-window{
+    color: whitesmoke;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    font-size: 1.1rem;
+    pre{
+        background-color: transparent !important;
+    }
+}
