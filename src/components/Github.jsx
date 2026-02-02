@@ -22,7 +22,7 @@ const Github = ({windowName,setWindow}) => {
         </div>
         <div className="urls">
             <a href={data.repoLink}>Repolink</a>
-            <a href={data.demoLink}>demolink</a>
+            {data.demoLink && <a href={data.demoLink}>Demo link</a>}
         </div>
       </div>
     }
